@@ -1,0 +1,10 @@
+{
+  "modules" : { 
+    "vdm2"  : {
+      "description": "Ecoutez une bonne vie de merde !",
+      "version"    : "3.16",
+	  "Auteur": "Refait part Avatar Rousseau (Dark Best)",
+	  "Categorie": "Speech"
+    }
+  }
+}

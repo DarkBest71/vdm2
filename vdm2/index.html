@@ -1,0 +1,37 @@
+<script type="text/javascript">
+    jQuery(document).ready(function () {
+        jQuery("#plugin-menu .plugin-nav a").click(function () {
+            jQuery("#plugin-menu .content > ul").hide();
+            jQuery("#plugin-menu .plugin-nav ul li").removeClass("active");
+            jQuery(this).parent().addClass("active");
+            jQuery("#" + jQuery(this).data("toggle")).show();
+            return false;
+        });
+    });
+</script>
+<p class="page-header">
+    <span class="lead">Ce module permet de récupérer des "Vie de merde" via S.A.R.A.H</span>
+</p>
+
+<div id="plugin-menu" class="row-fluid">
+    <!--Navigation-->
+    <div class="span3 well plugin-nav">
+        <ul class="nav nav-list">
+            <li class="nav-header">Commandes vocales</li>
+            <li class='active'><a href="#" data-toggle="plugin-vox-examples">Exemples</a></li>
+            <li class="divider"></li>
+            <li><a href="#" data-toggle="plugin-changelog">CHANGELOG</a></li>
+        </ul>
+    </div>
+    <!--Content-->
+    <div class="span9 content">
+        <!--Exemples-->
+        <ul class="unstyled" id="plugin-vox-examples">
+            <li><i class="icon-play-circle"></i> Sarah lit moi une vie de merde</li>
+        </ul>
+        <!--CHANGELOG-->
+        <ul class="unstyled" id="plugin-changelog" style="display: none;">
+            <li><i class="icon-play-circle"></i> <strong>1.0</strong> : Création du plugin</li>
+        </ul>
+    </div>
+</div>

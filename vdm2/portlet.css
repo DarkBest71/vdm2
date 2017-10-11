@@ -1,0 +1,10 @@
+.plugin-gridster.vdm2 .front {
+  background: #55b5e6 url('images/livre1.png') center 34px;
+  background-size:   130px 75px;
+  background-repeat: no-repeat;
+}
+.plugin-gridster.vdm2 .back {
+  background: #070000 url('images/livre2.png') center 34px;
+  background-size:   130px 75px;
+  background-repeat: no-repeat;
+} 
