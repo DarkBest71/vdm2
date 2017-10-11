@@ -34,8 +34,8 @@ exports.action = action;
   //  SCRAPING
   // ------------------------------------------
 
-var getRandomvdm2 = function($){
-  vdm2 = $('p.block').first().find('a').text();
+var getRandomVdm = function($){
+  vdm = $('p.block').first().find('a').text();
   // On remplace le VDM pour la lecture
-  return vdm2.replace(/vdm2/gi, ", vie de merde.");
+  return vdm.replace(/vdm/gi, ", vie de merde.");
 }
